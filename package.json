@@ -1,0 +1,8 @@
+{
+  "name": "react-fundamentos-rocketseat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Larrire/react-fundamentos-rocketseat.git",
+  "author": "Larrire <linekerlarrire@gmail.com>",
+  "license": "MIT"
+}
