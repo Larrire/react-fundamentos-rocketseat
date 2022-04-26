@@ -1,5 +1,7 @@
-const user = {
-  name: 'Diego'
+import React from "react";
+
+const App = () => {
+  return <h1>Olá</h1>
 }
 
-console.log(user.address?.street)
+export default App
