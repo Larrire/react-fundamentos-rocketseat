@@ -5,6 +5,10 @@
   "repository": "https://github.com/Larrire/react-fundamentos-rocketseat.git",
   "author": "Larrire <linekerlarrire@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
