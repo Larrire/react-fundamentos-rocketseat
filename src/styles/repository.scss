@@ -7,12 +7,22 @@ section.repository-list {
 
   ul {
     list-style: none;
+    display: flex;
+    margin-bottom: 24px;
 
     li {
       list-style: none;
+      box-shadow: 1px 1px 16px #ededed;
+      border-radius: 8px;
+      padding: 16px;
+      width: 240px;
+      height: 160px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 
       & + li {
-        margin-top: 20px;
+        margin-left: 20px;
       }
     }
 
@@ -32,24 +42,26 @@ section.repository-list {
   button.repository-list__paginate-button {
     border: none;
     padding: 8px 16px;
-    background-color: #dedede;
+    background-color: #efefef;
     font-size: 14px;
     color: #444;
     font-family: Arial, Helvetica, sans-serif;
-    margin-right: 4px;
+    margin-right: 8px;
     cursor: pointer;
     border-radius: 4px;
 
     &:hover {
-      background-color: #eee;
+      background-color: #777;
+      color: #fff;
     }
     &:active {
-      background-color: #fff;
+      background-color: #333;
+      color: #fff;
     }
   }
 
   button.repository-list__paginate-button--active {
-    background-color: deepskyblue;
+    background-color: black;
     color: #fff;
   }
 }

@@ -1,14 +1,16 @@
 export function RepositoryItem({
     name = 'Undefined repository',
     description = '',
-    link = ''
+    html_url = ''
   }) {
   return (
     <li>
-      <strong>{name}</strong>
-      <p>{description}</p>
+      <section>
+        <strong>{name}</strong>
+        <p>{description}</p>
+      </section>
 
-      <a href={link}>
+      <a target='_blank' href={html_url}>
         Acessar repositório
       </a>
     </li>
