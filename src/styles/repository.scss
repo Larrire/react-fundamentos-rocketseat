@@ -28,4 +28,28 @@ section.repository-list {
       text-decoration: none;
     }
   }
+
+  button.repository-list__paginate-button {
+    border: none;
+    padding: 8px 16px;
+    background-color: #dedede;
+    font-size: 14px;
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: #eee;
+    }
+    &:active {
+      background-color: #fff;
+    }
+  }
+
+  button.repository-list__paginate-button--active {
+    background-color: deepskyblue;
+    color: #fff;
+  }
 }
